@@ -56,7 +56,7 @@ fontStyle = Font(family="Lucida Grande", size=15)
 
 intro = Label(root,
               text="Welcome To Password Generator!!!", bd=8,
-              relief=RAISED, bg="PaleGreen3", width=39, height=4, font=Font(family="Comic Sans", size=18))
+              relief=RAISED, bg="PaleGreen3", width=39, height=4, font=Font(family="Comic Sans", size=18)) #improvent on fonts
 entlen = Label(fr, text='Enter the length of the password you want: ',
                bg='bisque', width=62, height=2, font=Font(size=12), anchor='s')
 et = Entry(fr, justify=CENTER)
